@@ -1,0 +1,433 @@
+body{
+ /* background-color:white; */
+}
+
+.header{
+    z-index: 1000;
+    
+}
+#services_first{
+    /* height: 50vh;
+    background-image: url("/images/img8.jpg");
+    background-position: center;  */
+    
+}
+#services_first img{
+    width: 100vw;
+    margin-top: -50vh;
+    z-index: 2;
+    position: relative;
+      
+     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.trapezium-clip {
+  width: 100vh;
+  height: 20vh;
+  background-color: #04748c;
+  clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 25% 100%);
+  position: relative;
+  top: -10vh;
+  left: 50vh;
+  /* z-index: -1; */
+}
+.rectangle-clip{
+    height: 20vh;
+    width: 50vh;
+    background-color: #04748c;
+    position: relative;
+    left: 75vh;
+    top: -30vh;
+    z-index: 3;
+    border-radius: 10px;
+}
+.rectangle-clip span{
+    position: relative;
+    top: 5vh;
+    left: 2vh;
+    font-size: 3rem;
+    font-family: Roboto Slab;
+    
+}
+
+
+
+
+
+
+
+.first_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_section .left{
+    position: relative;
+    left: -3vh;
+     top: -20vh;
+     font-size: 2rem;
+     font-weight: 700;
+     text-align: justify;
+}
+.first_section .divider{
+    height: 30vh;
+    width: 0.5vh;
+    background-color: black;
+    position: relative;
+    left: 3vh;
+    top: -20vh;
+}
+.first_section .right{
+   position: relative;
+   left: 9vh;
+    top: -20vh;
+   text-align: justify;
+   width: 30rem ;
+}
+
+.first_section .right .span1{
+    color:#04748c ;
+    font-weight: 500;
+}
+
+
+
+
+
+.second_section{
+    /* display: flex; */
+    height: 120vh;
+}
+
+.second_section .span1{
+   position: relative;
+   font-size: 2rem;
+   left: 80vh;
+   font-family: Roboto Slab;
+
+}
+.second_section .span2{
+    color:#04748c ;
+    font-size: 2rem;
+    position: relative;
+     left: 75vh;
+     font-weight: 800;
+     font-family: Roboto Slab;
+}
+.second_section .row1{
+    display: flex;
+    gap: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+}
+.second_section .box1{
+    height: 30vh;
+    width: 50vh;
+    /* background-color: rgb(95, 181, 246); */
+    background-color: #04748c;
+    /* border-radius: 10px; */
+    font-family: Roboto Slab;
+    border: 1px solid black;
+    border-radius: 10px;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+.second_section .circle{
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: -4vh;
+    left: 5vh;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+     background-color: #e0c2a3;
+}
+.second_section .circle #num{
+    font-size: 2rem;
+     position: relative;
+    top: 1vh;
+    left: 3.2vh;
+}
+.second_section #span1{
+    position: relative;
+    left: 4vh;
+    /* color:rgb(95, 181, 246) ; */
+    color: black;
+    font-size: 1.4rem;
+}
+
+.box1 p{
+    width: 40vh;
+    position: relative;
+    left: 4vh;
+    text-align: justify;
+    /* top: 1vh; */
+}
+
+
+.second_section .box2{
+    height: 30vh;
+    width: 50vh;
+    /* background-color: rgb(95, 181, 246); */
+    /* border-radius: 10px; */
+    background-color: white;
+    font-family: Roboto Slab;
+    border: 1px solid black;
+    border-radius: 10px;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+.second_section .box2 .circle{
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: -4vh;
+    left: 5vh;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+     background-color: #e0c2a3;
+}
+.second_section .box2.circle #num{
+    font-size: 2rem;
+     position: relative;
+    top: 1vh;
+    left: 3.2vh;
+}
+.second_section .box2 #span1{
+    position: relative;
+    left: 4vh;
+    color:#04748c ;
+    font-size: 1.4rem;
+}
+
+.box2 p{
+    width: 40vh;
+    position: relative;
+    left: 4vh;
+    text-align: justify;
+    /* top: 1vh; */
+}
+
+
+
+.second_section .box3{
+    height: 30vh;
+    width: 50vh;
+    /* background-color: rgb(95, 181, 246); */
+    background-color: #04748c;
+    /* border-radius: 10px; */
+    /* background-color: white; */
+    font-family: Roboto Slab;
+    border: 1px solid black;
+    border-radius: 10px;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+.second_section .box3 .circle{
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: -4vh;
+    left: 5vh;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+     background-color: #e0c2a3;
+}
+.second_section .box3.circle #num{
+    font-size: 2rem;
+     position: relative;
+    top: 1vh;
+    left: 3.2vh;
+}
+.second_section .box3 #span1{
+    position: relative;
+    left: 4vh;
+    /* color:rgb(95, 181, 246) ; */
+    color: black;
+    font-size: 1.4rem;
+   
+}
+
+.box3 p{
+    width: 40vh;
+    position: relative;
+    left: 4vh;
+    text-align: justify;
+    /* top: 1vh; */
+}
+
+.second_section .row2{
+    display: flex;
+    gap: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+}
+
+
+.second_section .box4{
+    height: 30vh;
+    width: 50vh;
+    /* background-color: rgb(95, 181, 246); */
+    /* border-radius: 10px; */
+    background-color: white;
+    font-family: Roboto Slab;
+    border: 1px solid black;
+    border-radius: 10px;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+.second_section .box4 .circle{
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: -4vh;
+    left: 5vh;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+     background-color: #e0c2a3;
+}
+.second_section .box4.circle #num{
+    font-size: 2rem;
+     position: relative;
+    top: 1vh;
+    left: 3.2vh;
+}
+.second_section .box4 #span1{
+    position: relative;
+    left: 4vh;
+    color:#04748c ;
+    font-size: 1.4rem;
+}
+
+.box4 p{
+    width: 40vh;
+    position: relative;
+    left: 4vh;
+    text-align: justify;
+    /* top: 1vh; */
+}
+
+.second_section .box5{
+    height: 30vh;
+    width: 50vh;
+    /* background-color: rgb(95, 181, 246); */
+    background-color: #04748c;
+    /* border-radius: 10px; */
+    /* background-color: white; */
+    font-family: Roboto Slab;
+    border: 1px solid black;
+    border-radius: 10px;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+.second_section .box5 .circle{
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: -4vh;
+    left: 5vh;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+     background-color: #e0c2a3;
+}
+.second_section .box5.circle #num{
+    font-size: 2rem;
+     position: relative;
+    top: 1vh;
+    left: 3.2vh;
+}
+.second_section .box5 #span1{
+    position: relative;
+    left: 4vh;
+    /* color:rgb(95, 181, 246) ; */
+    color: black;
+    font-size: 1.4rem;
+}
+
+.box5 p{
+    width: 40vh;
+    position: relative;
+    left: 4vh;
+    text-align: justify;
+    /* top: 1vh; */
+}
+
+.second_section .box6{
+    height: 30vh;
+    width: 50vh;
+    /* background-color: rgb(95, 181, 246); */
+    /* border-radius: 10px; */
+    background-color: white;
+    font-family: Roboto Slab;
+    border: 1px solid black;
+    border-radius: 10px;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+.second_section .box6 .circle{
+    height: 8vh;
+    width: 8vh;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: -4vh;
+    left: 5vh;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+     background-color: #e0c2a3;
+}
+.second_section .box6.circle #num{
+    font-size: 2rem;
+     position: relative;
+    top: 1vh;
+    left: 3.2vh;
+   
+}
+.second_section .box6 #span1{
+    position: relative;
+    left: 4vh;
+    color:#04748c ;
+    font-size: 1.4rem;
+}
+
+.box6 p{
+    width: 40vh;
+    position: relative;
+    left: 4vh;
+    text-align: justify;
+    /* top: 1vh; */
+}
+
+
+
+
+
+
+
+
+
+.service_section{
+    height: 50vh;
+    width: 80vw;
+    position: relative;
+    /* top: 100px; */
+    background-color: pink;
+
+    
+}
+.service_section .bar{
+    height: 20vh;
+    width: 80vw;
+    /* margin-right: 10vh; */
+    margin-left: 20vh;
+    background-color: #04748c;
+    /* position: relative; */
+position: absolute;
+top: 40px;
+}
