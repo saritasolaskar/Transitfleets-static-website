@@ -15,23 +15,31 @@
 
 <body>
     <div class="header">
-        <img id="logo" src="/images/logo.png" alt="logo">
-        <a id="logo_name">Transitfleets</a>
+
+        <div class="header-left">
+            <img id="logo" src="images/logo.png" alt="logo">
+            <span id="logo_name">Transitfleets</span>
+        </div>
+        <div class="menu-toggle" onclick="document.querySelector('.header-right').classList.toggle('active')">☰</div>
+
+        <!-- <img id="logo" src="images/logo.png" alt="logo">
+            <a id="logo_name">Transitfleets</a> -->
         <div class="header-right">
             <a href="index.html" id="home">HOME</a>
             <a href="about.html" id="about">ABOUT</a>
             <a href="services.html" id="services">SERVICES</a>
             <a href="contact.html" id="contact">CONTACT</a>
-            <a href="login.html" id="login">LOGIN/SIGNUP</a>
+           
         </div>
+
     </div>
 
 
 
     <div id="services_first">
-        <img src="/images/services_pg_image_1.jpg" alt="">
+        <img src="images/services_pg_image_1.jpg" alt="">
     </div>
-    <div class="trapezium-clip"></div>
+   
     <div class="rectangle-clip">
         <span>OUR SERVICES</span>
     </div>
@@ -48,9 +56,11 @@
                 mobility services for businesses and professionals. Our parent company, Rohit Tours & travels brings
                 strong experience in Employee transportation and , ensuring that every journey with TransitFleets is
                 seamless and professional.
-                <br><span class="span1"> Vision: </span>To be the most trusted and preferred corporate mobility partner in
+                <br><span class="span1"> Vision: </span>To be the most trusted and preferred corporate mobility partner
+                in
                 India.
-                <br><span class="span1"> Mission:</span> To provide reliable, safe, and time-efficient transportation solutions that enhance
+                <br><span class="span1"> Mission:</span> To provide reliable, safe, and time-efficient transportation
+                solutions that enhance
                 business productivity.
                 <br> <span class="span1">Core Values:</span> Safety | Reliability | Professionalism | Customer-First |
                 Sustainability</span>
@@ -69,23 +79,26 @@
                 <div class="circle">
                     <span id="num">1</span>
                 </div>
-            
+
                 <span id="span1">Corporate Employee Transport </span>
                 <br>
                 <span class="ser_content">
                     <p> Safe, reliable, and efficient daily transportation for employees,
-                ensuring they arrive on time, every time.</p></span> 
+                        ensuring they arrive on time, every time.</p>
+                </span>
             </div>
 
             <div class="box2">
                 <div class="circle">
                     <span id="num">2</span>
                 </div>
-            
+
                 <span id="span1">Airport Pickup & Drop</span>
                 <br>
                 <span class="ser_content">
-                    <p> Hassle-free airport transfers for executives, VIPs, and employees, with real-time flight monitoring and professional chauffeurs.</p></span> 
+                    <p> Hassle-free airport transfers for executives, VIPs, and employees, with real-time flight
+                        monitoring and professional chauffeurs.</p>
+                </span>
             </div>
 
 
@@ -94,49 +107,57 @@
                 <div class="circle">
                     <span id="num">3</span>
                 </div>
-            
+
                 <span id="span1">Executive & VIP Travel</span>
                 <br>
                 <span class="ser_content">
-                    <p>Premium chauffeur-driven services for high-profile clients, offering comfort, privacy, and a first-class travel experience.</p></span> 
+                    <p>Premium chauffeur-driven services for high-profile clients, offering comfort, privacy, and a
+                        first-class travel experience.</p>
+                </span>
             </div>
 
-            
+
         </div>
         <div class="row2">
-             <div class="box4">
+            <div class="box4">
                 <div class="circle">
                     <span id="num">4</span>
                 </div>
-            
+
                 <span id="span1">Tailored Travel Solutions</span>
                 <br>
                 <span class="ser_content">
-                    <p> Flexible routes and schedules customized to meet organizational requirements, including special events, client meetings, and business travel.
-                       </p></span> 
+                    <p> Flexible routes and schedules customized to meet organizational requirements, including special
+                        events, client meetings, and business travel.
+                    </p>
+                </span>
             </div>
-            
+
             <div class="box5">
                 <div class="circle">
                     <span id="num">5</span>
                 </div>
-            
+
                 <span id="span1">Safety & Security</span>
                 <br>
                 <span class="ser_content">
-                    <p> All vehicles are GPS-enabled, maintained to high standards, and driven by trained professionals to ensure maximum safety.
-                         </p></span> 
+                    <p> All vehicles are GPS-enabled, maintained to high standards, and driven by trained professionals
+                        to ensure maximum safety.
+                    </p>
+                </span>
             </div>
 
-              <div class="box6">
+            <div class="box6">
                 <div class="circle">
                     <span id="num">6</span>
                 </div>
-            
+
                 <span id="span1">Customized Travel Plans</span>
                 <br>
                 <span class="ser_content">
-                    <p>Flexible routes and schedules designed to meet unique corporate needs, events, and business requirements. </p></span> 
+                    <p>Flexible routes and schedules designed to meet unique corporate needs, events, and business
+                        requirements. </p>
+                </span>
             </div>
 
         </div>
@@ -148,11 +169,11 @@
 
 
 
-   
 
 
 
-  <div id="fourth">
+
+    <div id="fourth">
         <section id="contact_details">
             <div id="links">
                 <p id="p_head1">QUICK LINKS</p>
@@ -162,25 +183,25 @@
                 <p><a href="contact.html">Contact Us</a></p>
             </div>
             <div id="our_services">
-                 <p id="p_head2">OUR SERVICES</p>
-                 <p>Corporate Employee Transportation</p>
-                 <p>Premium Cab Services for Businesses</p>
-                 <p>Airport Transfers (Pickup & Drop)</p>
-                 <p>Outstation Corporate Travel</p>
-                 <p>Event & Conference Transportation</p>
-                 <p>Shuttle Services for Employees</p>
-                 <p>VIP / Luxury Car Rentals</p>
-                 <p>24x7 Chauffeur-Driven Services</p>
+                <p id="p_head2">OUR SERVICES</p>
+                <p>Corporate Employee Transportation</p>
+                <p>Premium Cab Services for Businesses</p>
+                <p>Airport Transfers (Pickup & Drop)</p>
+                <p>Outstation Corporate Travel</p>
+                <p>Event & Conference Transportation</p>
+                <p>Shuttle Services for Employees</p>
+                <p>VIP / Luxury Car Rentals</p>
+                <p>24x7 Chauffeur-Driven Services</p>
 
 
             </div>
             <div id="contact_us">
                 <p id="p_head3">Contact Us</p>
                 <p>Phone<br>
-                 +91 9881043606 | +91 7666570996</p>
-                 <p> Mail-id<br>
-                info@transitfleets.com  | solaskarkps7@gmail.com</p>
-                 <p>Triveni nagar Bhekrai Nagar Phursungi Hadapsar Pune</p>
+                    +91 9881043606 | +91 7666570996</p>
+                <p> Mail-id<br>
+                    info@transitfleets.com | solaskarkps7@gmail.com</p>
+                <p>Triveni nagar Bhekrai Nagar Phursungi Hadapsar Pune</p>
 
 
             </div>

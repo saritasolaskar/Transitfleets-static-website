@@ -58,16 +58,25 @@
     </style>
 </head>
 <body>
-    <div class="header">
-            <img id="logo" src="/images/logo.png" alt="logo">
-            <a id="logo_name">Transitfleets</a>
+     <div class="header">
+
+            <div class="header-left">
+                <img id="logo" src="images/logo.png" alt="logo">
+                <span id="logo_name">Transitfleets</span>
+            </div>
+             <div class="menu-toggle" onclick="document.querySelector('.header-right').classList.toggle('active')">☰</div>
+           
+            <!-- <img id="logo" src="images/logo.png" alt="logo">
+            <a id="logo_name">Transitfleets</a> -->
             <div class="header-right">
                 <a href="index.html" id="home">HOME</a>
                 <a href="about.html" id="about">ABOUT</a>
                 <a href="services.html" id="services">SERVICES</a>
                 <a href="contact.html" id="contact">CONTACT</a>
                 <a href="login.html" id="login">LOGIN/SIGNUP</a>
+
             </div>
+
         </div>
 
 

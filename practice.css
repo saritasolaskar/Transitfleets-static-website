@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#landing{
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url(/Website/images/image1.png);
+    background-size: cover;
+    filter: blur(3px);
+
+}
+
+#navbar{
+    display: flex;
+    color: black;
+    width: 100vw;
+   
+}
+span{
+    width: 100vw;
+    font-size: 3vh;
+    color: wheat;
+    
+}
+.header{
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    position: relative;
+    top: -100vh;
+    justify-content: center;
+    align-items: center;
+     font-size: 1.8vw;
+     width: 100vw;
+}
+.header-right{
+     margin-left: 46vw;
+     display: flex;
+     gap: 5vh;
+     font-size: 1.2vw;
+}
+.header-right a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    height: 5vw;
+}
+
+.container {
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 20vh;
+  left: 5vh;
+  opacity: 1; 
+  z-index: 1;
+}
+
+.container #tagline {
+ 
+  font-size: 5rem;
+   width: 50vw;
+ border-radius: 10px;
+ z-index: 0;
+  
+
+}
+#tagline_text{
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 10px;
+    /* background-color: rgba(239, 235, 235,0.4); */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white
+}
+
+#explore_btn {
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+
+}
+
+#explore_btn:hover {
+  background-color: black;
+  color: #f9f6f6;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}

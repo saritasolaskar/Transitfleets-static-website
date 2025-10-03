@@ -18,20 +18,28 @@
 
     <div class="landing_pg">
         <div class="header">
-            <img id="logo" src="/images/logo.png" alt="logo">
-            <a id="logo_name">Transitfleets</a>
+
+            <div class="header-left">
+                <img id="logo" src="images/logo.png" alt="logo">
+                <span id="logo_name">Transitfleets</span>
+            </div>
+            <div class="menu-toggle" onclick="document.querySelector('.header-right').classList.toggle('active')">☰
+            </div>
+
+            <!-- <img id="logo" src="images/logo.png" alt="logo">
+            <a id="logo_name">Transitfleets</a> -->
             <div class="header-right">
                 <a href="index.html" id="home">HOME</a>
                 <a href="about.html" id="about">ABOUT</a>
                 <a href="services.html" id="services">SERVICES</a>
                 <a href="contact.html" id="contact">CONTACT</a>
-                <a href="login.html" id="login">LOGIN/SIGNUP</a>
+               
 
             </div>
 
         </div>
 
-        <div class="container">
+        <!-- <div class="container">
 
             <div id="tagline">
                 <div id="tagline_text">
@@ -42,11 +50,23 @@
                     <button id="explore_btn">EXPLORE</button>
                 </a>
                 <br>
-                <img src="/images/arrow.png" alt="arrow">
+                <img src="images/arrow.png" alt="arrow">
 
             </div>
+        </div> -->
+        <div class="container">
+            <h1 id="tagline">
+                <span id="tagline_text" style="font-family: Roboto Slab;">Safe & Reliable Fleet Services</span>
+            </h1>
+
+            <div class="cta-wrapper">
+                <button id="explore_btn">Explore</button>
+                <span class="arrow"><img src="images/arrow.png" alt="arrow"></span>
+            </div>
         </div>
+
     </div>
+
 
 
 
@@ -69,7 +89,7 @@
 
     <div id="mid_section">
         <div id="part1">
-            <div id="img"></div>
+            <img src="images/img10.jpg" alt="Corporate Transport" id="img">
         </div>
         <div id="part2">
             <P>TransitFleets, a division of Rohit Tours & Travels, is a trusted provider of corporate and executive
@@ -146,7 +166,7 @@
     <h2 id="services_we_provide"><span>SERVICES</span> WE OFFER</h2>
     <div id="services_section1">
 
-        <img src="/images/employee_transport_1.jpg" alt="img" id="ser_div1">
+        <img src="images/employee_transport_1.jpg" alt="img" id="ser_div1">
 
         <div id="ser_div2">
             <span id="span1"> Corporate Employee Transport</span><br>
@@ -175,7 +195,7 @@
                 their journey.</span>
 
         </div>
-        <img src="/images/airport_transport_1.jpg" alt="img" id="ser_div4">
+        <img src="images/airport_transport_1.jpg" alt="img" id="ser_div4">
 
     </div>
 
@@ -183,7 +203,7 @@
 
     <div id="services_section3">
 
-        <img src="/images/vip_transport.jpg" alt="img" id="ser_div5">
+        <img src="images/vip_transport.jpg" alt="img" id="ser_div5">
 
         <div id="ser_div6">
 
@@ -272,15 +292,17 @@
 
     <section id="client">
         <h1>OUR VALUED CLIENTS</h1>
-        <p>At TransitFleets, we are committed to providing safe, reliable, and comfortable transportation for businesses of all sizes. Our clients trust us to deliver seamless travel experiences, every time, ensuring punctuality and peace of mind.</p>
-       <div id="first_client">
-               <img src="/images/client_logo.png" alt="logo" id="first_client_logo">
-               <!-- <h2>Baravkar Auto Parts</h2> -->
-       </div>
-       <div id="second_client">
-               <img src="/images/image.png" alt="logo" id="second_client_logo">
-               <!-- <h2>Baravkar Auto Parts</h2> -->
-       </div>
+        <p>At TransitFleets, we are committed to providing safe, reliable, and comfortable transportation for businesses
+            of all sizes. Our clients trust us to deliver seamless travel experiences, every time, ensuring punctuality
+            and peace of mind.</p>
+        <div id="first_client">
+            <img src="images/client_logo.png" alt="logo" id="first_client_logo">
+            <!-- <h2>Baravkar Auto Parts</h2> -->
+        </div>
+        <div id="second_client">
+            <img src="images/image.png" alt="logo" id="second_client_logo">
+            <!-- <h2>Baravkar Auto Parts</h2> -->
+        </div>
     </section>
 
 
@@ -325,25 +347,25 @@
                 <p><a href="contact.html">Contact Us</a></p>
             </div>
             <div id="our_services">
-                 <p id="p_head2">OUR SERVICES</p>
-                 <p>Corporate Employee Transportation</p>
-                 <p>Premium Cab Services for Businesses</p>
-                 <p>Airport Transfers (Pickup & Drop)</p>
-                 <p>Outstation Corporate Travel</p>
-                 <p>Event & Conference Transportation</p>
-                 <p>Shuttle Services for Employees</p>
-                 <p>VIP / Luxury Car Rentals</p>
-                 <p>24x7 Chauffeur-Driven Services</p>
+                <p id="p_head2">OUR SERVICES</p>
+                <p>Corporate Employee Transportation</p>
+                <p>Premium Cab Services for Businesses</p>
+                <p>Airport Transfers (Pickup & Drop)</p>
+                <p>Outstation Corporate Travel</p>
+                <p>Event & Conference Transportation</p>
+                <p>Shuttle Services for Employees</p>
+                <p>VIP / Luxury Car Rentals</p>
+                <p>24x7 Chauffeur-Driven Services</p>
 
 
             </div>
             <div id="contact_us">
                 <p id="p_head3">Contact Us</p>
                 <p>Phone<br>
-                 +91 9881043606 | +91 7666570996</p>
-                 <p> Mail-id<br>
-                info@transitfleets.com  | solaskarkps7@gmail.com</p>
-                 <p>Triveni nagar Bhekrai Nagar Phursungi Hadapsar Pune</p>
+                    +91 9881043606 | +91 7666570996</p>
+                <p> Mail-id<br>
+                    info@transitfleets.com | solaskarkps7@gmail.com</p>
+                <p>Triveni nagar Bhekrai Nagar Phursungi Hadapsar Pune</p>
 
 
             </div>
