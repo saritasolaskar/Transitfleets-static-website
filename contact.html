@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Transitfleets</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contact.css">
+ 
+</head>
+<body>
+  
+
+    <div class="header">
+
+            <div class="header-left">
+                <img id="logo" src="images/logo.png" alt="logo">
+                <span id="logo_name">Transitfleets</span>
+            </div>
+             <div class="menu-toggle" onclick="document.querySelector('.header-right').classList.toggle('active')">☰</div>
+           
+            <!-- <img id="logo" src="images/logo.png" alt="logo">
+            <a id="logo_name">Transitfleets</a> -->
+            <div class="header-right">
+               <a href="home" id="home">HOME</a>      <!--home la request jail ani mg tyala apan render index.ejs karu -->
+                <a href="about" id="about">ABOUT</a>
+                <a href="services" id="services">SERVICES</a>
+                <a href="contact" id="contact">CONTACT</a>
+              
+
+            </div>
+
+        </div>
+
+
+
+  <div class="quote-container">
+    <h2>Request a Quote</h2>
+    
+    <form action="/send" method="POST">
+      <!-- Personal Details -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" name="fullName" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label>Mobile Number</label>
+          <input type="tel" name="mobile" placeholder="Enter mobile number" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" name="email" placeholder="Enter your email" required>
+        </div>
+      </div>
+
+      <!-- Trip Details -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Pickup Location</label>
+          <input type="text" name="pickupLocation" placeholder="Enter pickup point" required>
+        </div>
+        <div class="form-group">
+          <label>Drop Location</label>
+          <input type="text" name="dropLocation" placeholder="Enter drop point" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Travel Date</label>
+          <input type="date" name="travelDate" required>
+        </div>
+        <div class="form-group">
+          <label>Travel Time</label>
+          <input type="time" name="travelTime" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Trip Type</label>
+          <select name="tripType" required>
+            <option>One Way</option>
+            <option>Round Trip</option>
+            <option>Local/Hourly</option>
+            <option>Outstation</option>
+            <option>Airport Transfer</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Return Required?</label>
+          <select name="returnRequired">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Cab Preferences -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Vehicle Type</label>
+          <select name="vehicleType" required>
+            <option>i20</option>
+            <option>Sedan</option>
+            <option>SUV</option>
+            <option>Luxury</option>
+            <option>Tempo Traveller</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>No. of Passengers</label>
+          <input type="number" name="passengers" min="1" max="50" value="1">
+        </div>
+        <div class="form-group">
+          <label>AC / Non-AC</label>
+          <select name="acType">
+            <option>AC</option>
+            <option>Non-AC</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Duration/Package -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Package / Duration</label>
+          <input type="text" name="duration" placeholder="e.g., 8hrs/80km or 2 days">
+        </div>
+      </div>
+
+      <!-- Notes -->
+      <div class="form-row">
+        <div class="form-group">
+          <label>Special Requests / Notes</label>
+          <textarea name="notes" placeholder="Add extra requirements (e.g., luggage, child seat, corporate billing)"></textarea>
+        </div>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" id="corporate" name="corporateBooking">
+        <label for="corporate">Corporate / Business Booking</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" id="callback" name="callBack">
+        <label for="callback">Call me back instead of email</label>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" class="submit-btn">Get My Quote</button>
+    </form>
+  </div>
+
+
+   <div id="fourth">
+        <section id="contact_details">
+            <div id="links">
+                <p id="p_head1">QUICK LINKS</p>
+                <p><a href="home.html">Home</a> </p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="services.html">Services</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+            </div>
+            <div id="our_services">
+                 <p id="p_head2">OUR SERVICES</p>
+                 <p>Corporate Employee Transportation</p>
+                 <p>Premium Cab Services for Businesses</p>
+                 <p>Airport Transfers (Pickup & Drop)</p>
+                 <p>Outstation Corporate Travel</p>
+                 <p>Event & Conference Transportation</p>
+                 <p>Shuttle Services for Employees</p>
+                 <p>VIP / Luxury Car Rentals</p>
+                 <p>24x7 Chauffeur-Driven Services</p>
+
+
+            </div>
+            <div id="contact_us">
+                <p id="p_head3">Contact Us</p>
+                <p>Phone<br>
+                 +91 9881043606 | +91 7666570996</p>
+                 <p> Mail-id<br>
+                info@transitfleets.com  | solaskarkps7@gmail.com</p>
+                 <p>Triveni nagar Bhekrai Nagar Phursungi Hadapsar Pune</p>
+
+
+            </div>
+        </section>
+
+
+    </div>
+
+
+</body>
+</html>
